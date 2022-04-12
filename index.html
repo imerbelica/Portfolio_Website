@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!---------->
+
+    <!--Component CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <!------------>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!------------>
+
+    <!-- Stylesheets -->
+    <link rel = "stylesheet" href = "css/grid.css">
+    <link rel = "stylesheet" href = "css/menu.css">
+    <link rel = "stylesheet" href = "css/imerbelica.css">
+    <link rel = "stylesheet" href = "css/buttons.css">
+    <!----------------->
+
+    <title>Imer Belica</title>
+
+</head>
+<body>
+    <header class = "site-header">
+        <div class = "container">
+            <div class = "row no-gap">
+                <div class = "col4 logo">
+                    <h1 class = "brand">
+                        <a href = ""> Imer Belica</a>
+                    </h1>
+                </div>
+                <div class = "col7 theme">
+                    <label class="switch">
+                        <input type="checkbox" onchange="toggleTheme()">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class = "col8">
+                    <div class = "menu-toggle">
+                        <i class = "fa fa-minus"></i>
+                        <i class = "fa fa-minus"></i>
+                        <i class = "fa fa-minus"></i>
+                    </div>
+                    <nav class = "menu" id = "primary-menu">
+                        <ul class = "menu-nav">
+                            <li class = "menu-nav-item"><a href = "#about">About</a></li>
+                            <li class = "menu-nav-item"><a href = "#skills">Skills</a></li>
+                            <li class = "menu-nav-item"><a href = "#portfolio">Portfolio</a></li>
+                            <li class = "menu-nav-item"><a href = "#education">Education</a></li>
+                            <li class = "menu-nav-item"><a href = "#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class = "section" id = "about">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col6">
+                    <img class = "img-rounded" id = "avatar" src = "images/Profile-Image.JPG" alt = "Imer Belica">
+                </div>
+                <div class = "col6">
+                    <header class = "section-header">
+                        <h1 class = "section-title site-title text-left">Hi, I'm Imer.</h1>
+                        <h2 class = "section-sub-title text-left">UHart '21, B.S. Graduate, Computer Science and Engineering</h2>
+                        <p class = "lead">I'm a graduate of the University of Hartford's class of 2021 and my passion is computer science.
+                        My interests in the field include software design and development, data analytics, and machine learning algorithms.
+                        Feel free to look around the website and learn more about me, if you have and questions please reach out.</p>
+                        <a class = "btn btn-primary" href = "#contact">Contact Me</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id="skills">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col12">
+                    <header class = "section-header">
+                        <h1 class ="section-title">My Skills</h1>
+                        <p class = "lead">During my experience developing software solutions I've acquired a broad skill set, you can see the ever-growing list of these skills below</p>
+                    </header>
+                </div>
+            </div>
+            <div class = "row features-list">
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-python-plain feature-icon"></i>
+                    <h3 class = "feature-title">Python</h3>
+                    <p class = "feature-description">3+ years working with python for all kinds of data analytic applications, I am extremely comfortable with this language</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-java-plain feature-icon"></i>
+                    <h3 class = "feature-title">Java</h3>
+                    <p class = "feature-description">4 years of experience in Java development, this was the primary language taught at UHart</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-cplusplus-plain feature-icon"></i>
+                    <h3 class = "feature-title">C++</h3>
+                    <p class = "feature-description">Exposure to C++ in the many projects throughout my college career that used arduino boards, I have used C++ to some capacity for the last 4 years</p>
+                </div>
+            </div>
+            <div class = "row features-list">
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-webstorm-plain feature-icon"></i>
+                    <h3 class = "feature-title">Web Development</h3>
+                    <p class = "feature-description">4+ years working with full web development stack including HTML, CSS, Javascript, JQuery, and PHP</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-mysql-plain feature-icon"></i>
+                    <h3 class = "feature-title">MySQL & MySQL Server</h3>
+                    <p class = "feature-description">Working knowledge using MySQL and MySQL Server for any database needs in different projects</p>
+                </div>
+                <div class = "col4 feature-item text-center" >
+                    <i class = "devicon-cplusplus-plain feature-icon"></i>
+                    <h3 class = "feature-title">Java Script</h3>
+                    <p class = "feature-description">I have used Javascript for the last 3 years in a number of different websites, this being one of them!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id="portfolio" >
+        <div class = "container">
+            <div class = "row">
+                <div class = "col12">
+                    <header class = "section-header">
+                        <h1 class = "section-title">My Portfolio</h1>
+                        <p class = "lead text-center">Heres some of the cool stuff I've Built!</p>
+                    </header>
+                </div>
+            </div>
+            <div class = "row no-gutter portfolio">
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#001" href = "">
+                        <img src = "images/Portfolio/Website_1_small.png" alt = 001">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "001">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/Website_1.png" alt = "001">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Portfolio Website</h3>
+                                <div class = "lead project-description">
+                                    <p>I made my best efforts to display some of my knowledge and experience in Web Development
+                                        and my understanding of the web development stack with this website. I began experimenting
+                                        with building websites using HTML and CSS in my freshman year in college in the last 4 years
+                                        I’ve been able to refine and fine tune my skills with these languages as well as introduce
+                                        different languages such as javascript and PHP to my programming toolkit to allow for more
+                                        complex and capable websites. While tinkering with website building I’ve tried to improve
+                                        my knowledge of the various APIs available to me as a programmer and I’ve implemented a
+                                        number of these in experimental websites, I’ve used everything from weather, to mapping API
+                                        while growing my knowledge in we development. I began building this website during my last
+                                        semester at the University of Hartford in the Fall of 2021 and have slowly been contributing
+                                        to it since then and plan to continue that for the foreseeable future.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#002" href = "">
+                        <img src = "images/Portfolio/Unity_Game_1_small.png" alt = 002">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "002">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/Unity_Game_1.png" alt = "002">
+
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Unity Game</h3>
+                                <div class = "lead project-description">
+                                    <p>During the Spring semester of my senior year in college I thought it might be fun
+                                        and interesting to take on a side project and begin to learn about game development.
+                                        I’ve always enjoyed playing video games and have appreciated the design aspect of
+                                        the games I’ve played and thought about what went into developing one. Upon doing
+                                        some research I decided to make a simple game that resembled something like the popular
+                                        subway surfer using unity, naturally while developing with unity I gained some important
+                                        knowledge of C# scripting. The game was simple but it helped me gain perspective on how
+                                        development took place and made me aware of the various tools I had at my disposal using
+                                        unity. I completed the game a few months after starting and I can say that I’m pretty
+                                        comfortable with unity and C# as a result.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#003" href = "">
+                        <img src = "images/Portfolio/Space_Mission_1_small.png" alt = 003">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "003">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/Space_Mission_1.png" alt = "003">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Space Mission Cost Analysis</h3>
+                                <div class = "lead project-description">
+                                    <p>During the Fall 2020 semester at the University of Hartford I was tasked with
+                                        a partner project in my Data Mining course. The concept of the project was
+                                        simple, find a topic of interest find a large dataset related to that topic
+                                        and draw some conclusions on the topic at hand based upon the data presented.
+                                        We were free to use our choice of technologies, and data sources to accomplish
+                                        the task and would need to present our finding upon the completion of the task.
+                                        This project expanded my knowledge of how the data mining and analysis workflow
+                                        takes place and created more familiarity with the language we chose to accomplish
+                                        the tasks outlined, this being Python. As a topic we selected space and we were
+                                        able to find a dataset on Kaggle describing every global space mission that’s
+                                        taken place since 1959. We performed a cost analysis on these missions comparing
+                                        the cost efficiency of private and public space missions and came to the conclusion
+                                        that generally private space missions tend to be more cost efficient, upon doing
+                                        some research we concluded that this was likely due to lightened regulations for
+                                        the private sector. My comfortability with python grew substantially throughout
+                                        the project particularly with specific popular libraries offered by the language
+                                        such as pandas, sklearn, and scipy. The project as a whole really helped me grow
+                                        as a developer and data scientist.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#004" href = "">
+                        <img src = "images/Portfolio/Hospital_App_1_small.png" alt = 004">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "004">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/Hospital_App_1.png" alt = "004">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Hospital Management Application</h3>
+                                <div class = "lead project-description">
+                                    <p>The hospital management application that my group and I created, in my software
+                                        development course in spring 2021 was one of my most complete projects implementing
+                                        a full stack of programming languages. The course was entirely based around a
+                                        single project and we had the entirety of the semester to complete it, communicating
+                                        with team members and the client (professor) alike in order to simulate a real world
+                                        development experience. Our group elected to work with Java as a backend language,
+                                        MySQL for our database needs, MySQL server for hosting the database, and Swing for
+                                        the front end of the application. I gained a lot of experience with all of these
+                                        technologies and was able to devote a lot of time to developing a complete full
+                                        stack application. The communicative dynamic was a unique experience and I feel
+                                        like it improved my ability to express my thoughts, ideas, and questions more
+                                        effectively with my team members as well as the client for whom we were developing
+                                        the project. Additionally, one of the unique requirements for this project was
+                                        documentation with a degree of detail that I didn’t have any prior experience with.
+                                        We were tasked with creating an SRS document, class and object diagrams, UI prototypes,
+                                        and test case scenarios using JUnit.  The object gave me great exposure to how the
+                                        entire development process takes place and gave me more experience using MySQL,
+                                        MySQL Server, and Java.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row no-gutter portfolio">
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#005" href = "">
+                        <img src = "images/Portfolio/005-small.jpg" alt = 005">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "005">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/005.jpg" alt = "005">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler5</p>
+                                    <p>Filler Filler Filler5</p>
+                                    <p>Filler Filler Filler5</p>
+                                    <p>Filler Filler Filler5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#006" href = "">
+                        <img src = "images/Portfolio/006-small.jpg" alt = 006">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "006">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/006.jpg" alt = "006">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name6</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler6</p>
+                                    <p>Filler Filler Filler6</p>
+                                    <p>Filler Filler Filler6</p>
+                                    <p>Filler Filler Filler6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#007" href = "">
+                        <img src = "images/Portfolio/007-small.jpg" alt = 007">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "007">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/007.jpg" alt = "007">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name7</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler7</p>
+                                    <p>Filler Filler Filler7</p>
+                                    <p>Filler Filler Filler7</p>
+                                    <p>Filler Filler Filler7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src = "#008" href = "">
+                        <img src = "images/Portfolio/008-small.jpg" alt = 008">
+                    </a>
+                    <div style = "display: none;" class = "portfolio-pop" id = "008">
+                        <div class = "row">
+                            <div class = "col8">
+                                <img src = "images/Portfolio/008.jpg" alt = "008">
+                            </div>
+                            <div class = "col4">
+                                <h3 class = "project-title">Project Name8</h3>
+                                <div class = "lead project-description">
+                                    <p>Filler Filler Filler8</p>
+                                    <p>Filler Filler Filler8</p>
+                                    <p>Filler Filler Filler8</p>
+                                    <p>Filler Filler Filler8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="main-font aos-init aos-animate" data-aos="fade-in">My <span class="text-blue main-font">Education</span></h2>
+
+            <div class="education-card aos-init aos-animate" data-aos="zoom-in">
+                <div class="education-card-column">
+                    <div class="card-column-image">
+                        <img src="/img/qut-Logo.png" alt="">
+                    </div>
+
+                    <div class="card-column-large">
+                        <h4 class="education-year">2022</h4>
+                        <h4>Queensland University of Technology - Bachelor of Information Technology</h4>
+                        <p>GPA 6.15/7</p>
+                        <ul>
+                            <li>Major in computer science</li>
+                            <li>Minor in networks &amp; security</li>
+                            <li>Minor in mobile applications</li>
+                            <li>Science &amp; Engineering Dean's List 2019</li>
+                        </ul>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="education-card-column">
+                    <div class="card-column-image">
+                        <img src="/img/jpc-logo.jpg" alt="">
+                    </div>
+
+                    <div class="card-column-large">
+                        <h4 class="education-year">2017</h4>
+                        <h4> John Paul College - High School</h4>
+                        <p>OP 4</p>
+                        <ul>
+                            <li>Information Processing Technology Prize</li>
+                            <li>Information Technology Systems Prize</li>
+                            <li>Cum Laude 2017</li>
+                            <li>Prefect</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id = "contact">
+        <div class = "container">
+            <div class="row">
+                <div class = "col6">
+                    <header class="section-header">
+                        <h1 class="section-title text-left">Contact Me</h1>
+                        <p class="lead text-left">If you want to contact me for any inquiries please reach me using this form and I will get back to you as soon as possible</p>
+                    </header>
+                    <ul class="list-inline">
+                        <li class = "list-inline-item"><i class = "fa fa-map-marker"></i>       124 Baum Dr, 06787</li>
+                        <li class = "list-inline-item"><i class = "fa fa-phone"></i>       +1(203)558-7662</li>
+                        <li class = "list-inline-item"><i class="fa fa-envelope"></i>       99imerb@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col6">
+                    <form action = "process.php" method = "post" class = "dark contact-form">
+                        <h3 class="form-title">Send a Message</h3>
+                        <div class="form-field">
+                            <input class="text" type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-field">
+                            <input class="text email" type="email" name="email" placeholder="Email" required>
+                        </div>
+
+                        <div class="form-field">
+                            <textarea class="textarea" name="message" placeholder= "Add your message here" required></textarea>
+                        </div>
+                        <div class="form-field" style = "display: none">
+                            <input type="hidden" name="url" placeholder="URL">
+                        </div>
+                        <input class="btn btn-submit" type="submit" value="Send">
+                        <div id = "status-messages"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "section" id = "socials">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col12 text-center social-links">
+                    <a href="https://www.linkedin.com/in/imerbelica/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://github.com/imerbelica" target="_blank"><i class="fa fa-github" style="padding-inline: 3rem"></i></a>
+                    <a href="https://www.instagram.com/imerbelica/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src = "js/imerbelica.js"></script>
+    <!------------->
+</body>
+</html>
