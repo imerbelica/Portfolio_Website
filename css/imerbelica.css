@@ -82,6 +82,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
     list-style-type: none;
     font-size: 0.85rem;
     color: #fff;
+    justify-content: center;
 }
 
 .list-inline-item {
@@ -220,6 +221,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
 #portfolio {
     background: #282828;
 }
+
 .portfolio-pop {
     background: #282828;
 }
