@@ -169,7 +169,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
 
 #about .lead {
     font-size: 1.35rem;
-    line-height: 1.3;
+    line-height: 1.5;
     text-align: left;
 }
 
@@ -231,6 +231,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
 .project-description {
     line-height: 2;
     padding: 2rem;
+    font-size: 1.5vh;
 }
 
 .project-title {
@@ -239,6 +240,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
     line-height: 1;
     font-family: Rockwell, cursive, SansSerif;
     color: #ffffff;
+    text-align: center;
 }
 
 .project-description {
@@ -247,6 +249,12 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
 
 .portfolio-item{
     padding: .5rem;
+}
+
+img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media (max-width: 768px) {
@@ -266,23 +274,17 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
 -------------------------------------------------------------------------------*/
 
 .education{
-    padding: 2rem;
+    padding: 4rem;
+}
+.college-logo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
 }
 
-.container {
-
-}
-
-.testimonial-title {
-    font-size: 1.75rem;
-}
-
-.testimonial-content {
-    line-height: 1.3;
-}
-
-.testimonial-author {
-    font-size: .8rem;
+.education-title {
+    padding-bottom: 3rem;
 }
 
 /* Contact
@@ -364,8 +366,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea{
 }
 
 /* Theme Button
--------------------------------------------------------------------------------*/
-
+-------------------------------------------------------------------------------*/F
 .light-mode-button {
     background:0;
     box-sizing: border-box;
