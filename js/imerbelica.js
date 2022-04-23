@@ -68,8 +68,8 @@ function toggleTheme() {
     // Obtains an array of all <link>
     // elements.
     // Select your element using indexing.
-    var theme = document.getElementsByTagName('link')[8];
-    var menu = document.getElementsByTagName('link')[7];
+    var theme = document.getElementsByTagName('link')[9];
+    var menu = document.getElementsByTagName('link')[8];
 
     // Change the value of href attribute
     // to change the css sheet.
